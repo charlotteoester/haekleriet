@@ -26,6 +26,7 @@ font-size: 90px;
 text-align: center;
  font-family: 'Rubik Mono One', monospace;
  color: #ffffff;
+ opacity: 85%;
 margin-top: -250px;
 }
 
@@ -41,14 +42,14 @@ margin-top: -250px;
     display: inline-block;
     font-size: 25px;
     font-family: 'Rubik', sans-serif;
-    margin-left: 950px;
+    margin-left: 940px;
     margin-top: 75px;
     cursor: pointer;
 }
 
 .krussedulle {
     width: 100%;
-    max-width: 200px;
+    max-width: 240px;
     margin-left: 1080px;
 }
 

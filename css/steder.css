@@ -63,7 +63,7 @@ font-family: 'Rubik', sans-serif;
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   padding: 10px;
 }
 .grid-item {
@@ -74,7 +74,7 @@ font-family: 'Rubik', sans-serif;
 
 .gridimage {
   width: 70%;
-  height: 300px;
+  height: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 25px;
@@ -86,8 +86,9 @@ font-family: 'Rubik', sans-serif;
 
 h3 {
   font-family: 'Rubik Mono One', monospace;
-  font-size: 20px;
+  font-size: 18px;
   color: blue;
+  margin-top: -50px;
 }
 
 
