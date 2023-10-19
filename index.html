@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hækleriet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="theme_page">
+
+    <header class="page_header">
+        <h1 class="title">HÆKLERIET</h1>
+    
+        <img src="images/krussedulle.png" alt="logo" class="logo">
+        
+
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+    </header>
+    
+    <main>
+        <div class="forsidebillede">
+        <img src="images/forsidebillede2.jpg" alt="forsidebillede">
+        <div class="forside_text">
+            <h2>LÆR AT HÆKLE</h2>
+        </div>
+        </div>
+        
+    
+    </main>
+
+    <footer>
+    
+        <a href="??"><button class="klikher" onclick=""> Klik her</button></a>
+
+        <img src="images/krussedulle2.png" alt="krussedulle" class="krussedulle">     
+    
+    </footer>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* -------- basics -------- */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FEC9FF;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    color: blue;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+.logo {
+    width: 100%;
+    max-width: 290px;
+    margin-top: -700px;
+    }
+
+    /*-------- tekst-------- */
+
+      .maskebilleder {
+        width: 55%;
+        border-radius: 50%;
+      }
+
+      .masketitler {
+        font-family: 'Rubik Mono One', monospace;
+        color: blue;
+      }
+
+      .masketyper_title {
+        font-family: 'Rubik Mono One', monospace;
+        color: #ffffff;
+        font-size: 40px;
+        padding-left: 40px;
+      }
+
+      .paragraf {   
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        padding-left: 40px;
+        margin-top: -30px;
+      }
+
+      h3 {
+        font-family: 'Rubik Mono One', monospace;
+        font-size: 20px;
+        color: blue;
+    }
+
+    .maske_heading {
+        background-color: #feb4ff;
+        padding: 5px;
+    }
+
+/* -------- containers -------- */
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        padding: 10px;
+      }
+      .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .gridimage {
+        width: 70%;
+        border-radius: 50%;
+      }
+
+      /* -------- queries -------- */
+
+      @media screen and (max-width: 600px) {
+        .grid-container {
+            grid-template-columns: auto;
+          }
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                float: left;
+                width: 100%;
+                padding: 0px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .title {
+                font-size: 25px;
+                text-align: center;
+                color: blue;
+            }
+        
+            .logo {
+                width: 100%;
+                max-width: 200px;
+                margin-left: 0px;
+                margin-top: 0px;
+                }
+          }
+
+

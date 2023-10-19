@@ -1,0 +1,93 @@
+/* -------- basics -------- */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FEC9FF;
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+  color: blue;
+  font-family: 'Rubik Mono One', monospace;
+}
+
+.logo {
+  width: 100%;
+  max-width: 290px;
+  margin-top: -700px;
+  }
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    color: blue;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+/* -------- text-containers -------- */
+
+.grid-container_text {
+  display: grid;
+  grid-template-columns: 70% 20% 10%;
+  padding: 10px;
+  background-color: #feb4ff;
+}
+
+.grid-item_text1 {
+  font-size: 25px;
+  font-family: 'Rubik Mono One', monospace;
+  color: rgb(255, 255, 255);
+}
+.grid-item_text2 {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'Rubik Mono One', monospace;
+}
+
+.grid-item_text3 {
+  color: blue;
+  font-size: 15px;
+  font-family: 'Rubik Mono One', monospace;
+  margin-left: -80px;
+}
+
+.grid-paragraf {
+font-size: 20px;
+font-family: 'Rubik', sans-serif;
+}
+
+
+/* -------- containers -------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.gridimage {
+  width: 70%;
+  height: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 65px;
+  background-color: #ffffff;
+}
+
+
+
+h3 {
+  font-family: 'Rubik Mono One', monospace;
+  font-size: 20px;
+  color: blue;
+}
+
+

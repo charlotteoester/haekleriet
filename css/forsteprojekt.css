@@ -1,0 +1,80 @@
+/* -------- basics -------- */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FEC9FF;
+  }
+  
+  .title {
+    font-size: 100px;
+    text-align: center;
+    color: blue;
+    font-family: 'Rubik Mono One', monospace;
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 290px;
+    margin-top: -700px;
+    }
+  
+  .title {
+      font-size: 100px;
+      text-align: center;
+      color: blue;
+      font-family: 'Rubik Mono One', monospace;
+  }
+
+  /* -------- containers -------- */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+  }
+
+  .grid-item1 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 35px;
+  }
+
+  .grid-item2 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 35px;
+  }
+  
+  .gridimage {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .forsteprojekt_title {
+    font-family: 'Rubik Mono One', monospace;
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 40px;
+  }
+
+  .heading {
+    background-color: #feb4ff;
+    padding: 5px;
+  }
+
+  h4 {
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 20px;
+    color: blue;
+  }
+
+  .opskrift {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+  }

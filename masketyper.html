@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hækleriet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/masketyper.css">
+</head>
+
+    <body>
+
+        <header class="page_header">
+            <h1 class="title">HÆKLERIET</h1>
+            <img src="images/logo.png" alt="logo" class="logo">
+        </header>
+    
+    <!-- navigationsbar -->
+
+    <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="forside" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Kom godt i gang 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="masketyper.html">Masketyper</a>
+          <a href="forsteprojekt.html">Mit første projekt</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Materialer 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Hæklenåle</a>
+          <a href="#">Garn</a>
+          <a href="#">Diverse</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn"> Opskrifter 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Trøjer</a>
+          <a href="#">Tasker</a>
+          <a href="#">Hårbånd</a>
+          <a href="#">Klude</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Tips & tricks
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="steder.html">Gode hækle-steder</a>
+          <a href="#">Inspiration</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Hvorfor hækle?
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Hækling og helbred</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</nav>
+    <!--   script til navigationsbar -->
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<!--  masketyper -->
+<div class="maske_heading">
+    <h2 class="masketyper_title">MASKETYPER</h2>
+    <p class="paragraf">Her finder du en oversigt over alle de forskellige masketyper - dejligt nemt!</p>
+</div>
+
+<!-- række 1 -->
+
+<div class="grid-container">
+    <div class="grid-item">
+        <h3>Luftmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Kædemaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Fastmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+  </div>
+
+  <!-- række 2 -->
+
+  <div class="grid-container">
+    <div class="grid-item">
+        <h3>Halvstangmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Stangmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Db. stangmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+  </div>
+
+  <!-- række 3 -->
+
+  <div class="grid-container">
+    <div class="grid-item">
+        <h3>3-db. stangmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>4-db. stangmaske</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Magisk ring</h3>
+        <a href=""><img src="images/masketype.jpg" alt="" class="gridimage"></a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hækleriet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/steder.css">
+</head>
+
+    <body>
+
+        <header class="page_header">
+            <h1 class="title">HÆKLERIET</h1>
+            <img src="images/logo.png" alt="logo" class="logo">
+        </header>
+    
+    <!-- navigationsbar -->
+    
+    <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="forside.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Kom godt i gang 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="masketyper.html">Masketyper</a>
+          <a href="forsteprojekt.html">Mit første projekt</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Materialer 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Hæklenåle</a>
+          <a href="#">Garn</a>
+          <a href="#">Diverse</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn"> Opskrifter 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Trøjer</a>
+          <a href="#">Tasker</a>
+          <a href="#">Hårbånd</a>
+          <a href="#">Klude</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Tips & tricks
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="steder.html">Gode hækle-steder</a>
+          <a href="#">Inspiration</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Hvorfor hækle?
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Hækling og helbred</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</nav>
+    <!--   script til navigationsbar -->
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+        
+
+<!-- tekst -->
+
+        <div class="grid-container_text">
+            <div class="grid-item_text1">
+                <h2>Gode hækle-steder</h2>
+                <p class="grid-paragraf">
+                    Det er altid hyggeligt at tage ud med vennerne/veninderne og få en kop kaffe <br>
+                    - specielt hvis man kan sidde med hæklenålen i hånden mens man sludrer. <br>
+                    Her finder du en god guide til hyggelige steder som serverer god mad og kaffe, <br>
+                   uden du får ondt i ryggen af at sidde i en ubehagelig stol. <br>
+                   <br>
+                    Så grib hæklenålen, og tag en ven eller veninde under armen!
+                </p>
+            </div>
+            <div class="grid-item_text2">
+                <h2>Vælg by:</h2>
+            </div>
+            <div class="grid-item_text3">
+                <h2>Aarhus</h2>
+            </div>
+          </div>
+
+<!-- billeder -->
+
+<div class="grid-container">
+    <div class="grid-item">
+        <h3>Den gule cafe</h3>
+        <a href=""><img src="images/dengulecafe.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Café gemmestedet</h3>
+        <a href=""><img src="images/cafegemmestedet.jpg" alt="" class="gridimage"></a>
+    </div>
+    <div class="grid-item">
+        <h3>Cross café</h3>
+        <a href=""><img src="images/crosscafe.jpg" alt="" class="gridimage"></a>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

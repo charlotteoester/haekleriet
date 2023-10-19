@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hækleriet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/forsteprojekt.css">
+</head>
+
+<body>
+
+    <header class="page_header">
+        <h1 class="title">HÆKLERIET</h1>
+        <img src="images/logo.png" alt="logo" class="logo">
+    </header>
+
+<!-- navigationsbar -->
+
+</nav>
+<div class="topnav" id="myTopnav">
+  <a href="forside.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Kom godt i gang 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="masketyper.html">Masketyper</a>
+      <a href="forsteprojekt.html">Mit første projekt</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Materialer 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Hæklenåle</a>
+      <a href="#">Garn</a>
+      <a href="#">Diverse</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn"> Opskrifter 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Trøjer</a>
+      <a href="#">Tasker</a>
+      <a href="#">Hårbånd</a>
+      <a href="#">Klude</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Tips & tricks
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="steder.html">Gode hækle-steder</a>
+      <a href="#">Inspiration</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Hvorfor hækle?
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Hækling og helbred</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</nav>
+
+<!--   script til navigationsbar -->
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- containers -->
+<div class="heading">
+    <h2 class="forsteprojekt_title">Mit første proejekt</h2>
+</div>
+
+
+<div class="grid-container">
+    <div class="grid-item1">
+        <h4>Begyndervenlig klud</h4>
+        <p class="opskrift">
+            En god måde at lære det basale ved hækling og komme ind i rytmen, er ved gentagelse. Derfor er denne karklud en perfekt start for begyndere.
+        </p>
+        <h4>Materialer</h4>
+        <p class="opskrift">
+            Hæklenål 3 mm <br>
+            Bomuldsgarn str. 8/4 <br>
+            Hæftenål
+        </p>
+        <h4>Teknikker</h4>
+        <p class="opskrift">
+            Luftmasker <br>
+            Fastmasker
+        </p>
+        <h4>
+            Selve opskriften
+        </h4>
+        <p class="opskrift">
+            1. Start med at lave en løkke. <br>
+            <br>
+            2. Slå 50 luftmasker op. <br>
+            <br>
+            3. Lav en vendemaske (luftmaske). <br>
+            <br>
+            4. Hækl 1 fastmaske i 2. luftmaske fra nålen. <br>
+            <br>
+            5. Hækl fastmasker rækken ud. <br>
+            <br>
+            6. Lav en vendemaske. Vend arbejdet. <br>
+            <br>
+            7. Hækl fastmasker rækken ud. <br>
+            <br>
+            8. Lav endnu en luftmaske til at vende med. <br>
+            <br>
+            9 .Fortsæt med at lave fastmasker og vendemasker i 27 rækker. <br>
+            <br>
+            10. Lav til slut en vendemaske/luftmaske <br>
+            <br>
+            11. Klip garnet over, og træk enden af garnet igennem løkken. Stram til. <br>
+            <br>
+            12. Tråd nålen, og hæft enderne. <br>
+        </p>
+        <h4>Tadaaa! Du har hæklet en klud</h4>
+    </div>
+
+    <div class="grid-item2">
+        <a href=""><img src="images/klud.png" alt="" class="gridimage"></a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FEC9FF;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    color: blue;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+.logo {
+    width: 100%;
+    max-width: 290px;
+    margin-top: -700px;
+    }
+
+.forsidebillede {
+width: 100%;
+}
+
+.forsidetekst {
+font-size: 90px;
+text-align: center;
+ font-family: 'Rubik Mono One', monospace;
+ color: #ffffff;
+margin-top: -250px;
+}
+
+.knap {
+    border: none;
+    border-radius: 50%;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 950px;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+.krussedulle {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 1080px;
+}
+
+/* -------- queries -------- */
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 25px;
+        text-align: center;
+        color: blue;
+    }
+
+    .logo {
+        width: 100%;
+        max-width: 200px;
+        margin-left: 0px;
+        margin-top: 0px;
+        }
+  }
